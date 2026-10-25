@@ -1,0 +1,89 @@
+/* estiliza geral da página */
+body {
+    background-color: #eaf2f8;
+    color: #333333;
+    font-family: "Nunito", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* cabecalho */
+header {
+    background-color: #01183f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border: 3px solid #17263d;
+}
+
+/* titulo principal */
+h1 {
+    color: #7dd3fc;
+    text-align: center;
+    font-size: 32px;
+}
+
+/* subtitulo */
+.subtitulo {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+/* links do menu */
+nav a {
+    color: white;
+    margin: 10px;
+}
+
+/* efeito de passar o mouse sobre um link */
+a:hover {
+    color: #9c0303;
+}
+
+/* area principal */
+main {
+    margin: 20px;
+    padding: 10px;
+}
+
+/* agrupamento de títulos */
+h2, h3 {
+    color: #263b5e;
+}
+
+/* seçao identificada pelo ID */
+#introducao {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #9bb4d0;
+}
+
+/* seçoes identificadas pela classe */
+.secao {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #9bb4d0;
+}
+
+/* texto em destaque */
+.destaque {
+    color: #245a81;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* estilizacao das listas */
+ul, ol {
+    background-color: #f3f7fb;
+    padding: 15px 15px 15px 40px;
+    border: 1px solid #9bb4d0;
+}
+
+/* espaço dos itens das listas */
+li {
+    margin-bottom: 5px;
+}
+
